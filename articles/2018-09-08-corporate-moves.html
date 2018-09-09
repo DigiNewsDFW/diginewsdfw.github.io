@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Untitled</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <script src="/assets/js/lib/vue.js"></script>
+  </head>
+  <body class="homepage is-preload">
+    <div id="page-wrapper">
+      <section id="header">
+        <section id="banner">
+          <header>
+            <h2>Libero. Enim at Magnis.</h2>
+            <p>A lectus sapien at Libero</p>
+          </header>
+        </section>
+      </section>
+
+      <section id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <article class="box post">
+                <span class="image featured"><img src="../images/2018-09-08.jpg" /></span>
+                <header>
+                  <h2>Are corporate moves squeezing the tech talent pool in DFW?</h2>
+                  <small>By Danielle Abril</small>
+                  <p>Lorem ipsum dolor sit amet feugiat</p>
+                </header>
+
+                <p>
+                  Cities across the nation are anxiously awaiting big news from Amazon about where the massive e-commerce company
+                  will place its second headquarters, which could be a major boon for the region that lands the campus.
+                </p>
+                <p>
+                  I took a look at what a move from a major technology company like Amazon would mean for the talent labor pool
+                  in Dallas-Fort Worth. The region has been home to some of the largest corporate moves in the last several years,
+                  garnering the interest of companies including Toyota, JPMorgan Chase, and Liberty Mutual. But as more companies move in,
+                  and particularly if they have a high demand for tech workers, what does that do to the local workforce?
+                </p>
+                <p>
+                  Over the years, DFW has been lauded for its tech talent. And many companies I've spoken to in my coverage find that
+                  being away from the cut-throat competition for tech talent—say, in regions like the Bay Area—is a big advantage for
+                  hiring competent talent here.
+                </p>
+                <p>
+                  But could DFW soon lose that advantage? After all, this is nothing more than the simple concept of supply and demand.
+                </p>
+                <p>
+                  Read more about what a major tech company relocation could mean for DFW in a piece I wrote for D CEO.
+                </p>
+
+                <section>
+                  <header>
+                    <h3>Ornare nisl</h3>
+                  </header>
+                  <p>
+                    Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
+                    placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
+                    eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
+                    elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                    sit amet nullam consequat feugiat dolore tempus.
+                  </p>
+                  <p>
+                    Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
+                    eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
+                    elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                    sit amet nullam consequat feugiat dolore tempus.
+                  </p>
+                </section>
+
+                <section>
+                  <header>
+                    <h3>Ut at auctor mus.</h3>
+                  </header>
+                  <p>
+                    Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
+                    eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
+                    elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                    sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla.
+                    Maecenas sagittis convallis justo vel mattis.
+                  </p>
+                </section>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-12-medium">
+              <section>
+                <header>
+                  <h2>Recent articles</h2>
+                </header>
+
+                <ul class="dates">
+                  <li v-for="article in recent">
+                    <span class="date">{{article.month}} <strong>{{article.day}}</strong></span>
+                    <h3><a :href="'/articles/' + article.page">{{article.title}}</a></h3>
+                    <p>{{article.blurb}}</p>
+                  </li>
+                </ul>
+
+                <a href="/articles/index.html">View all</a>
+              </section>
+            </div>
+
+            <div class="col-8 col-12-medium">
+              <section>
+                <a href="#" class="image featured"><img src="https://via.placeholder.com/920x400" /></a>
+              </section>
+            </div>
+
+            <div class="col-4 col-12-medium">
+              <section>
+                <header>
+                  <h2>About</h2>
+                </header>
+
+                <p>
+                  Erat ut Nullam cep augue, massa ornare curae ante primis cursus sit Varius Quis lectus mus enim luctus Congue Aenean Dictum tempus at elit amet ac nec in col sem sapien et aenean semper libero diam morbi rutrum mi ligula vel!
+                </p>
+
+                <ul class="social">
+                  <li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
+                  <li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+                  <li><a class="icon fa-linkedin" href="#"><span class="label">LinkedIn</span></a></li>
+                </ul>
+
+                <ul class="contact">
+                  <li>
+                    <h3>Mail</h3>
+                    <p><a href="mailto:">someone@untitled.tld</a></p>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="http://cdn.date-fns.org/v2.0.0-alpha0/date_fns.min.js"></script>
+    <script type="module" src="/assets/js/index.js"></script>
+  </body>
+</html>

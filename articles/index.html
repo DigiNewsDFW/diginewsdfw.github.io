@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Untitled</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <script src="/assets/js/lib/vue.js"></script>
+  </head>
+  <body class="homepage is-preload">
+    <div id="page-wrapper">
+      <section id="header">
+        <section id="banner">
+          <header>
+            <h2>Libero. Enim at Magnis.</h2>
+            <p>A lectus sapien at Libero</p>
+          </header>
+        </section>
+      </section>
+
+      <section id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <section>
+                <header class="major">
+                  <h2>My Portfolio</h2>
+                </header>
+
+                <div class="row">
+                  <div class="col-4 col-6-medium col-12-small" v-for="article in articles">
+                    <section class="box">
+                      <a :href="'/articles/' + article.page" class="image featured"><img :src="'/images/' + article.image" /></a>
+                      <header>
+                        <h3>{{article.title}}</h3>
+                        <small>By {{article.author}}</small>
+                        <p>{{article.date}}</p>
+                      </header>
+                      <p>{{article.blurb}}</p>
+                      <footer>
+                        <ul class="actions">
+                          <li><a :href="'/articles/' + article.page" class="button">Continue Reading</a></li>
+                        </ul>
+                      </footer>
+                    </section>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 col-12-medium">
+              <section>
+                <a href="#" class="image featured"><img src="https://via.placeholder.com/920x400" /></a>
+              </section>
+            </div>
+
+            <div class="col-4 col-12-medium">
+              <section>
+                <header>
+                  <h2>About</h2>
+                </header>
+
+                <p>
+                  Erat ut Nullam cep augue, massa ornare curae ante primis cursus sit Varius Quis lectus mus enim luctus Congue Aenean Dictum tempus at elit amet ac nec in col sem sapien et aenean semper libero diam morbi rutrum mi ligula vel!
+                </p>
+
+                <ul class="social">
+                  <li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
+                  <li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+                  <li><a class="icon fa-linkedin" href="#"><span class="label">LinkedIn</span></a></li>
+                </ul>
+
+                <ul class="contact">
+                  <li>
+                    <h3>Mail</h3>
+                    <p><a href="mailto:">someone@untitled.tld</a></p>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="http://cdn.date-fns.org/v2.0.0-alpha0/date_fns.min.js"></script>
+    <script type="module" src="/assets/js/articles.js"></script>
+  </body>
+</html>
