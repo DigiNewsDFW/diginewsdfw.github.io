@@ -4,7 +4,7 @@ const { format, parse } = dateFns;
 
 articles
   .sort((a, b) => parse(a.date) < parse(b.date))
-  .forEach(article => article.date = format(article.date, 'MMM D, YYYY'));
+  .forEach(article => article.displayDate = format(article.date, 'MMMM D, YYYY, hh:mm aa'));
 
 new Vue({
   el: '#page-wrapper',

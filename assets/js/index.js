@@ -3,7 +3,7 @@ import articles from './data/articles.js';
 const { format, parse } = dateFns;
 
 const featured = articles.find(article => article.featured);
-featured.date = format(featured.date, 'MMM D, YYYY');
+featured.displayDate = format(featured.date, 'MMMM D, YYYY, hh:mm aa');
 
 const recent = articles
   .sort((a, b) => parse(a.date) < parse(b.date))
