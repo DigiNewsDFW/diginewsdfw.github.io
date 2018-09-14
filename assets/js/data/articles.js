@@ -18,7 +18,7 @@ const articles = [{
 }, {
   title: 'DFW\'s Hispanic entrepreneurs: These are the best cities for you',
   date: 'September 14, 2018 9:00 AM',
-  blurb: 'The region is home to four of the nation\'s top 25, according to this study.',
+  blurb: 'The region is home to four of the nation\'s top 25 cities, according to this study.',
   description: '<p>Dallas-Fort Worth was home to four of the top 25 cities in the nation for Hispanic entrepreneurs, according to a recent study conducted by personal finance website WalletHub.</p> <p>The study analyzed 23 different metrics that fell under two categories: Hispanic business friendliness, which carried the most weight (60 percent of the overall score), and Hispanic purchasing power (worth 40 percent).</p>',
   page: '2018-09-14-hispanic-entrepreneurs.html',
   image: '2018-09-14-Hispanic-entrepreneurs.jpg',
