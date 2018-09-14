@@ -2,7 +2,7 @@ const articles = [{
   title: 'Common Desk plans to expand beyond DFW',
   date: 'September 14, 2018 9:05 AM',
   blurb: 'The coworking space is working on new locations across Texas and outside of the state.',
-  description: '<p>After landing a two-floor, 52,000 square feet at the Trammell Crow Center for its new coworking space and amenities, Common Desk is planning to expand its offerings beyond Dallas-Fort Worth.</p><p>The company is working on locations in Houston, Charlotte, Austin, and Atlanta, said CEO Nick Clark. It also is expecting to announce another location in Dallas-Fort Worth within the next several months.</p>',
+  description: '<p>After landing a two-floor, 52,000 square feet at the Trammell Crow Center for its new coworking space and amenities, Common Desk is planning to expand its offerings beyond Dallas-Fort Worth.</p><p>The company is working on locations in Houston, Charlotte, Austin and Atlanta, said CEO Nick Clark. It also is expecting to announce another location in Dallas-Fort Worth within the next several months.</p>',
   page: '2018-09-14-common-desk-expansion.html',
   image: '2018-09-14-common-desk-expansion.jpg',
   author: 'Danielle Abril',
@@ -21,7 +21,7 @@ const articles = [{
   blurb: 'The region is home to four of the nation\'s top 25 cities, according to this study.',
   description: '<p>Dallas-Fort Worth was home to four of the top 25 cities in the nation for Hispanic entrepreneurs, according to a recent study conducted by personal finance website WalletHub.</p> <p>The study analyzed 23 different metrics that fell under two categories: Hispanic business friendliness, which carried the most weight (60 percent of the overall score), and Hispanic purchasing power (worth 40 percent).</p>',
   page: '2018-09-14-hispanic-entrepreneurs.html',
-  image: '2018-09-14-Hispanic-entrepreneurs.jpg',
+  image: '2018-09-14-hispanic-entrepreneurs.jpg',
   author: 'Danielle Abril'
 }, {
   title: 'Are corporate moves squeezing the tech talent pool in DFW?',
