@@ -9,11 +9,19 @@ const articles = [{
   featured: true
 }, {
   title: 'Match Group reaches new heights, rocky relationships in tow',
-  date: 'September 14, 2018 9:00 AM',
+  date: 'September 14, 2018 9:03 AM',
   blurb: 'As the company rakes in billions from its portfolio of dating apps and websites, dating app squabbles continue.',
-  description: '<p>Match Group has been on a hot streak, consistently impressing analysts, beating revenue estimates and sending its stock to new heights. But amid all of its recent success, Match continues to deal with public spats with Austin-based dating app Bumble and the original founders of Tinder, which is part of Match Group's portfolio.</p>',
+  description: '<p>Match Group has been on a hot streak, consistently impressing analysts, beating revenue estimates and sending its stock to new heights. But amid all of its recent success, Match continues to deal with public spats with Austin-based dating app Bumble and the original founders of Tinder, which is part of Match Group\'s portfolio.</p>',
   page: '2018-09-14-match-group-lawsuits.html',
   image: '2018-09-14-match-group-lawsuits.jpg',
+  author: 'Danielle Abril'
+}, {
+  title: 'DFW\'s Hispanic entrepreneurs: These are the best cities for you',
+  date: 'September 14, 2018 9:00 AM',
+  blurb: 'The region is home to four of the nation\'s top 25, according to this study.',
+  description: '<p>Dallas-Fort Worth was home to four of the top 25 cities in the nation for Hispanic entrepreneurs, according to a recent study conducted by personal finance website WalletHub.</p> <p>The study analyzed 23 different metrics that fell under two categories: Hispanic business friendliness, which carried the most weight (60 percent of the overall score), and Hispanic purchasing power (worth 40 percent).</p>',
+  page: '2018-09-14-hispanic-entrepreneurs.html',
+  image: '2018-09-14-Hispanic-entrepreneurs.jpg',
   author: 'Danielle Abril'
 }, {
   title: 'Are corporate moves squeezing the tech talent pool in DFW?',
