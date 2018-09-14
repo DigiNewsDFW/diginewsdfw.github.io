@@ -1,4 +1,21 @@
 const articles = [{
+  title: 'Common Desk plans to expand beyond DFW',
+  date: 'September 14, 2018 9:05 AM',
+  blurb: 'The coworking space is working on new locations across Texas and outside of the state.',
+  description: '<p>After landing a two-floor, 52,000 square feet at the Trammell Crow Center for its new coworking space and amenities, Common Desk is planning to expand its offerings beyond Dallas-Fort Worth.</p><p>The company is working on locations in Houston, Charlotte, Austin, and Atlanta, said CEO Nick Clark. It also is expecting to announce another location in Dallas-Fort Worth within the next several months.</p>',
+  page: '2018-09-14-common-desk-expansion.html',
+  image: '2018-09-14-common-desk-expansion.jpg',
+  author: 'Danielle Abril',
+  featured: true
+}, {
+  title: 'Match Group reaches new heights, rocky relationships in tow',
+  date: 'September 14, 2018 9:00 AM',
+  blurb: 'As the company rakes in billions from its portfolio of dating apps and websites, dating app squabbles continue.',
+  description: '<p>Match Group has been on a hot streak, consistently impressing analysts, beating revenue estimates and sending its stock to new heights. But amid all of its recent success, Match continues to deal with public spats with Austin-based dating app Bumble and the original founders of Tinder, which is part of Match Group's portfolio.</p>',
+  page: '2018-09-14-match-group-lawsuits.html',
+  image: '2018-09-14-match-group-lawsuits.jpg',
+  author: 'Danielle Abril'
+}, {
   title: 'Are corporate moves squeezing the tech talent pool in DFW?',
   date: 'September 10, 2018 9:01 AM',
   blurb: 'Take a look at what more corporations moving to the region could mean for the technical workforce.',
@@ -13,8 +30,7 @@ const articles = [{
   description: '<p>Mavs Gaming, the NBA 2K League team owned by the Dallas Mavericks, showed off its new 12,000-square-foot facility at a grand opening on Sept. 6. Though the spotlight was on the new digs and team, which is one of 17 to enter the league in its first year, the Mavs organization wanted to make one thing clear: This Mavs Gaming Pavilion is not just for gamers; it\'s for the community.</p>',
   page: '2018-09-10-mavs-gaming-facility.html',
   image: '2018-09-10-mavs-gaming-facility.jpg',
-  author: 'Danielle Abril',
-  featured: true
+  author: 'Danielle Abril'
 }, {
   title: 'These once undocumented immigrants are growing successful businesses in Dallas',
   date: 'September 10, 2018 9:03 AM',
