@@ -1,4 +1,4 @@
-import articles from './data/articles.js';
+import articles from '../data/articles.js';
 
 const { format, parse } = dateFns;
 

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/css/main.css?{guid}" />
+    <script src="/assets/js/lib/vue.min.js?{guid}"></script>
+    <script src="/assets/js/lib/vue-meta.min.js?{guid}"></script>
+  </head>
+
+  <body class="homepage is-preload">
+    <div id="page-wrapper">
+      <div id="header"></div>
+
+      <section id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <article class="box post">
+                {body}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="footer"></div>
+    </div>
+
+    <script src="/assets/js/lib/date_fns.min.js?{guid}"></script>
+    <script type="module" src="/assets/js/util/common.js?{guid}"></script>
+    <script type="module" src="/assets/js/pages/article.js?{guid}"></script>
+  </body>
+</html>

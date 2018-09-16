@@ -1,0 +1,11 @@
+{
+  "name": "diginewsdfw.com",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "bin/build"
+  },
+  "devDependencies": {
+    "shortid": "^2.2.13"
+  }
+}

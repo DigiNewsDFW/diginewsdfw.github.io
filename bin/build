@@ -1,0 +1,45 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const shortid = require('shortid');
+
+const handler = (resolve, reject) => (e, data) => e ? reject(e) : resolve(data);
+
+const readTemplate = async () => {
+  const template = path.join(__dirname, '../assets/js/pages/_article.html');
+  return (await new Promise((...args) => fs.readFile(template, handler(...args)))).toString();
+};
+
+const getArticles = () => {
+  const articles = path.join(__dirname, '../assets/articles');
+
+  return new Promise((...args) => fs.readdir(articles, handler(...args)));
+};
+
+const readArticles = async () => {
+  const articles = await getArticles();
+
+  return Promise.all(articles.map(async article => {
+    const _path = path.join(__dirname, `../assets/articles/${article}`);
+    const contents = (await new Promise((...args) => fs.readFile(_path, handler(...args)))).toString();
+
+    return {
+      filename: article,
+      contents
+    };
+  }));
+};
+
+const build = async () => {
+  const template = await readTemplate();
+  const articles = await readArticles();
+
+  articles.forEach(({ filename, contents }) => {
+    const file = path.join(__dirname, `../articles/${filename}`);
+    contents = template.replace(/{body}/, contents).replace(/{guid}/g, shortid());
+    fs.writeFile(file, contents, () => console.log(`${file} written.`));
+  });
+};
+
+build();

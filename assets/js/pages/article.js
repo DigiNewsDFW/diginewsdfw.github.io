@@ -1,9 +1,7 @@
-import articles from './data/articles.js';
+import articles from '../data/articles.js';
+import meta from '../util/meta.js';
 
 const { format, parse } = dateFns;
-
-const featured = articles.find(article => article.featured);
-featured.displayDate = format(featured.date, 'MMMM D, YYYY, hh:mm aa');
 
 const recent = articles
   .sort((a, b) => parse(a.date) < parse(b.date))
@@ -16,10 +14,12 @@ const recent = articles
     };
   });
 
+const current = articles.find(({ page }) => window.location.pathname.includes(page));
+
 new Vue({
   el: '#page-wrapper',
+  metaInfo: meta(current),
   data: {
-    featured,
     recent
   }
 });
