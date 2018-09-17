@@ -39,18 +39,19 @@ const readArticles = async () => {
 
 const defaultMeta = {
   metaPage: '',
-  title: 'DigiNews DFW',
-  blurb: 'Technology, startup and business news in Dallas-Fort Worth',
+  metaTitle: 'DigiNews DFW',
+  metaDate: parse(Date.now()).toISOString(),
+  metaBlurb: 'Technology, startup and business news in Dallas-Fort Worth',
+  metaImage: '/images/header.jpg',
+  title: '',
+  blurb: '',
   image: 'header.jpg',
   date: parse(Date.now()).toISOString(),
   type: 'website'
 }
 
-const replace = (html, options, useDefault) => {
-  const { title, date, image, author, page, blurb, type, description, metaPage } = useDefault
-    ? Object.assign({}, options, defaultMeta)
-    : Object.assign({}, defaultMeta, options);
-
+const replace = (html, options) => {
+  const { title, date, image, author, page, blurb, type, description, metaPage, metaTitle, metaDate, metaBlurb, metaImage } = Object.assign({}, defaultMeta, options);
   const _metaPage = type === 'article' ? `articles/${page}` : metaPage;
 
   return html.replace(/{guid}/g, guid)
@@ -62,6 +63,10 @@ const replace = (html, options, useDefault) => {
     .replace(/{description}/g, description)
     .replace(/{type}/g, type)
     .replace(/{metaPage}/g, `https://diginewsdfw.com/${_metaPage}`)
+    .replace(/{metaTitle}/g, type === 'article' ? title : metaTitle)
+    .replace(/{metaDate}/g, type === 'article' ? date : metaDate )
+    .replace(/{metaBlurb}/g, type === 'article' ? blurb : metaBlurb )
+    .replace(/{metaImage}/g, type === 'article' ? image : metaImage )
     .replace(/{page}/g, `https://diginewsdfw.com/articles/${page}`)
     .replace(/{displayDate}/g, format(date, 'MMMM D, YYYY, h:mm aa'))
     .replace(/{month}/g, format(date, 'MMM'))
