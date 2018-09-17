@@ -57,4 +57,4 @@ const articles = [{
   author: 'Danielle Abril'
 }];
 
-export default articles;
+module.exports = articles;

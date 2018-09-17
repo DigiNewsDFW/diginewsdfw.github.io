@@ -3,17 +3,24 @@
 const fs = require('fs');
 const path = require('path');
 const shortid = require('shortid');
+const { format, parse } = require('date-fns');
+
+const guid = shortid();
+const data = require('../assets/js/data/articles');
 
 const handler = (resolve, reject) => (e, data) => e ? reject(e) : resolve(data);
 
-const readTemplate = async () => {
+const readFile = async (filepath) => {
+  return (await new Promise((...args) => fs.readFile(filepath, handler(...args)))).toString();
+};
+
+const readArticleTemplate = async () => {
   const template = path.join(__dirname, '../assets/js/pages/_article.html');
-  return (await new Promise((...args) => fs.readFile(template, handler(...args)))).toString();
+  return readFile(template);
 };
 
 const getArticles = () => {
   const articles = path.join(__dirname, '../assets/articles');
-
   return new Promise((...args) => fs.readdir(articles, handler(...args)));
 };
 
@@ -21,8 +28,7 @@ const readArticles = async () => {
   const articles = await getArticles();
 
   return Promise.all(articles.map(async article => {
-    const _path = path.join(__dirname, `../assets/articles/${article}`);
-    const contents = (await new Promise((...args) => fs.readFile(_path, handler(...args)))).toString();
+    const contents = await readFile(path.join(__dirname, `../assets/articles/${article}`))
 
     return {
       filename: article,
@@ -31,15 +37,88 @@ const readArticles = async () => {
   }));
 };
 
-const build = async () => {
-  const template = await readTemplate();
-  const articles = await readArticles();
+const defaultMeta = {
+  metaPage: '',
+  title: 'DigiNews DFW',
+  blurb: 'Technology, startup and business news in Dallas-Fort Worth',
+  image: 'header.jpg',
+  date: parse(Date.now()).toISOString(),
+  type: 'website'
+}
 
-  articles.forEach(({ filename, contents }) => {
-    const file = path.join(__dirname, `../articles/${filename}`);
-    contents = template.replace(/{body}/, contents).replace(/{guid}/g, shortid());
-    fs.writeFile(file, contents, () => console.log(`${file} written.`));
-  });
+const replace = (html, options, useDefault) => {
+  const { title, date, image, author, page, blurb, type, description, metaPage } = useDefault
+    ? Object.assign({}, options, defaultMeta)
+    : Object.assign({}, defaultMeta, options);
+
+  return html.replace(/{guid}/g, guid)
+    .replace(/{image}/g, `https://diginewsdfw.com/images/${image}`)
+    .replace(/{title}/g, title)
+    .replace(/{date}/g, parse(date).toISOString())
+    .replace(/{blurb}/g, blurb)
+    .replace(/{author}/g, author)
+    .replace(/{description}/g, description)
+    .replace(/{type}/g, type)
+    .replace(/{metaPage}/g, `https://diginewsdfw.com/${type === 'article' ? page : metaPage}`)
+    .replace(/{page}/g, `https://diginewsdfw.com/articles/${page}`)
+    .replace(/{displayDate}/g, format(date, 'MMMM D, YYYY, h:mm aa'))
+    .replace(/{month}/g, format(date, 'MMM'))
+    .replace(/{day}/g, format(date, 'D'));
 };
 
-build();
+const getRecentArticles = async () => {
+  const _path = path.join(__dirname, '../assets/js/pages/_recent-article.html');
+  const template = await readFile(_path);
+
+  return data.sort((a, b) => parse(a.date) < parse(b.date))
+    .slice(0, 5)
+    .map(article => replace(template, article)).join(' ');
+};
+
+const getArticleIndex = async () => {
+  const _articleItem = await readFile(path.join(__dirname, '../assets/js/pages/_article-item.html'));
+
+  return data.sort((a, b) => parse(a.date) < parse(b.date))
+    .map(article => replace(_articleItem, article)).join(' ');
+};
+
+
+const build = async (outputPath, contents, data, useDefault) => {
+  outputPath = path.join(__dirname, '..', outputPath);
+
+  const recent = await getRecentArticles();
+  const _head = await readFile(path.join(__dirname, `${_pages}/_header.html`));
+
+  contents = contents.replace(/{_head}/, _head)
+    .replace(/{recent}/, recent);
+
+  fs.writeFile(outputPath, replace(contents, data, useDefault), () => console.log(`${outputPath} written.`));
+};
+
+const _pages = '../assets/js/pages/';
+const _layout = path.join(__dirname, `${_pages}/_layout.html`);
+
+const _index = path.join(__dirname, `${_pages}/_index.html`);
+const _article = path.join(__dirname, `${_pages}/_article.html`);
+const _articles = path.join(__dirname, `${_pages}/_articles.html`);
+
+const start = async () => {
+  const layout = await readFile(_layout);
+  const [index, article, articles] = (await Promise.all([_index, _article, _articles].map(page => readFile(page)))).map(page => layout.replace(/{_page}/, page));
+
+  const featured = data.find(a => a.featured);
+  build('/index.html', index, featured, true);
+
+  const articleIndex = await getArticleIndex();
+  build('/articles/index.html', articles.replace(/{_article-item}/, articleIndex), {}, true);
+
+  const articlePages = await readArticles();
+  articlePages.forEach(({ filename, contents }) => {
+    const file = path.join(__dirname, `../articles/${filename}`);
+    const articleData = data.find(a => a.page === filename);
+
+    build(`/articles/${filename}`, article.replace(/{_article}/, contents), Object.assign(articleData, { type: 'article' }));
+  });
+}
+
+start();
