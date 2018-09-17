@@ -51,6 +51,8 @@ const replace = (html, options, useDefault) => {
     ? Object.assign({}, options, defaultMeta)
     : Object.assign({}, defaultMeta, options);
 
+  const _metaPage = type === 'article' ? `articles/${page}` : metaPage;
+
   return html.replace(/{guid}/g, guid)
     .replace(/{image}/g, `https://diginewsdfw.com/images/${image}`)
     .replace(/{title}/g, title)
@@ -59,7 +61,7 @@ const replace = (html, options, useDefault) => {
     .replace(/{author}/g, author)
     .replace(/{description}/g, description)
     .replace(/{type}/g, type)
-    .replace(/{metaPage}/g, `https://diginewsdfw.com/${type === 'article' ? page : metaPage}`)
+    .replace(/{metaPage}/g, `https://diginewsdfw.com/${_metaPage}`)
     .replace(/{page}/g, `https://diginewsdfw.com/articles/${page}`)
     .replace(/{displayDate}/g, format(date, 'MMMM D, YYYY, h:mm aa'))
     .replace(/{month}/g, format(date, 'MMM'))
