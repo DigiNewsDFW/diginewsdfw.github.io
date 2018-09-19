@@ -1,12 +1,20 @@
 const articles = [{
+  title: 'Plano-based OneDine app launches at Addison restaurants',
+  date: 'September 19, 2018 3:45 PM',
+  blurb: 'The mobile application personalizes restaurant and meal suggestions and allows diners to pay their checks or order more food.',
+  description: '<p>Guests at two Addison restaurants can now pay their tabs and order additional menu items via their smart phone without calling for service. That'\s after their smart phone also recommends menu items that fit their taste, dietary restrictions and eating habits.</p><p> Twin Peaks and Ida Claire, on Beltline Road, are the first of about 10 local restaurants piloting the new mobile app called OneDine. The application launched about 40 days ago and in the next three weeks, is expected to launch at eight more Dallas-Fort Worth restaurants, including Original Pancake House in Addison and Haywire and Mexican Sugar in Plano.</p>',
+  page: '2018-09-19-onedine-mobile-app.html',
+  image: '2018-09-19-onedine-mobile-app.jpg',
+  author: 'Danielle Abril',
+  featured: true
+},{
   title: 'Common Desk plans to expand beyond DFW',
   date: 'September 14, 2018 9:05 AM',
   blurb: 'The coworking space is working on new locations across Texas and outside of the state.',
   description: '<p>After landing a two-floor, 52,000 square feet at the Trammell Crow Center for its new coworking space and amenities, Common Desk is planning to expand its offerings beyond Dallas-Fort Worth.</p><p>The company is working on locations in Houston, Charlotte, Austin and Atlanta, said CEO Nick Clark. It also is expecting to announce another location in Dallas-Fort Worth within the next several months.</p>',
   page: '2018-09-14-common-desk-expansion.html',
   image: '2018-09-14-common-desk-expansion.jpg',
-  author: 'Danielle Abril',
-  featured: true
+  author: 'Danielle Abril'
 }, {
   title: 'Match Group reaches new heights, rocky relationships in tow',
   date: 'September 14, 2018 9:03 AM',
