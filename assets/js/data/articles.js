@@ -2,7 +2,7 @@ const articles = [{
   title: 'Plano-based OneDine app launches at Addison restaurants',
   date: 'September 19, 2018 3:45 PM',
   blurb: 'The mobile application personalizes restaurant and meal suggestions and allows diners to pay their checks or order more food.',
-  description: '<p>Guests at two Addison restaurants can now pay their tabs and order additional menu items via their smart phone without calling for service. That'\s after their smart phone also recommends menu items that fit their taste, dietary restrictions and eating habits.</p><p> Twin Peaks and Ida Claire, on Beltline Road, are the first of about 10 local restaurants piloting the new mobile app called OneDine. The application launched about 40 days ago and in the next three weeks, is expected to launch at eight more Dallas-Fort Worth restaurants, including Original Pancake House in Addison and Haywire and Mexican Sugar in Plano.</p>',
+  description: '<p>Guests at two Addison restaurants can now pay their tabs and order additional menu items via their smart phone without calling for service. That\'s after their smart phone also recommends menu items that fit their taste, dietary restrictions and eating habits.</p><p> Twin Peaks and Ida Claire, on Beltline Road, are the first of about 10 local restaurants piloting the new mobile app called OneDine. The application launched about 40 days ago and in the next three weeks, is expected to launch at eight more Dallas-Fort Worth restaurants, including Original Pancake House in Addison and Haywire and Mexican Sugar in Plano.</p>',
   page: '2018-09-19-onedine-mobile-app.html',
   image: '2018-09-19-onedine-mobile-app.jpg',
   author: 'Danielle Abril',
