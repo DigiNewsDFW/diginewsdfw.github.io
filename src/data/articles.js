@@ -4,7 +4,7 @@ const articles = [{
   blurb: 'The 24-year-old brand aims to shed stigma associated with prepaid mobile service with its latest offerings.',
   description: '<p>MetroPCS is aiming to change the public perception of its prepaid phone service. So the company is rebranding, changing its name and logo, as well as offering some new plans that include Google and Amazon services.',
   page: '2018-09-24-metropcs-updates-brand.html',
-  image: '2018-09-24-metropcs-updates-brand.jpg',
+  image: '2018-09-24-metro-updates-brand.jpg',
   author: 'Danielle Abril',
   featured: true
 }, {
