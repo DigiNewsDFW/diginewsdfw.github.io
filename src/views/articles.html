@@ -1,0 +1,26 @@
+<section>
+  <header class="major">
+    <h2>Articles</h2>
+  </header>
+
+  <div class="row">
+    ${articles.map(({ page, image, title, author, displayDate, blurb }) =>
+      `<div class="col-4 col-6-medium col-12-small">
+        <section class="box">
+          <a href="/articles/${page}" class="image featured"><img src="/images/${image}?${guid}" /></a>
+          <header>
+            <h3>${title}</h3>
+            <small>By ${author}</small>
+            <p>${displayDate}</p>
+          </header>
+          <p>${blurb}</p>
+          <footer>
+            <ul class="actions">
+              <li><a href="/articles/${page}" class="button">Continue Reading</a></li>
+            </ul>
+          </footer>
+        </section>
+      </div>`
+    )}
+  </div>
+</section>

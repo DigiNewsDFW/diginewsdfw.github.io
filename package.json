@@ -9,5 +9,10 @@
     "date-fns": "^1.29.0",
     "shortid": "^2.2.13"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@mjstahl/boring": "^3.2.3",
+    "imagemin": "^6.0.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^6.0.0"
+  }
 }

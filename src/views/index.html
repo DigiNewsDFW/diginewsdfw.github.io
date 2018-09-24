@@ -1,0 +1,27 @@
+<section>
+  <header class="major">
+    <h2>Featured Article</h2>
+  </header>
+
+  <div class="row">
+    <div class="col-12 col-12-small">
+      <section class="box">
+        <a href="/articles/${featured.page}" class="image featured"><img src="/images/${featured.image}?${guid}" /></a>
+
+        <header>
+          <h3>${featured.title}</h3>
+          <small>By ${featured.author}</small>
+          <p>${featured.displayDate}</p>
+        </header>
+
+        ${raw(featured.description)}
+
+        <footer>
+          <ul class="actions">
+            <li><a href="/articles/${featured.page}" class="button">Continue Reading</a></li>
+          </ul>
+        </footer>
+      </section>
+    </div>
+  </div>
+</section>
