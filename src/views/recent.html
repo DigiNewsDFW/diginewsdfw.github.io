@@ -1,7 +1,7 @@
 ${articles.map(({ month, day, title, page, blurb }) =>
   `<li>
     <span class="date">${month} <strong>${day}</strong></span>
-    <h3><a href="${page}">${title}</a></h3>
+    <h3><a href="/articles/${page}">${title}</a></h3>
     <p>${blurb}</p>
   </li>`
 )}
