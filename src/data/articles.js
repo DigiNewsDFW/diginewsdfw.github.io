@@ -1,12 +1,20 @@
 const articles = [{
+  title: 'Heavy hitters in business, entertainment explore the future of tech and media'
+  date: 'September 28, 2018 9:00 AM',
+  blurb: 'Celebrities and corporate power players drive an estimated 3,000 people to AT&T\'s 2018 Business Summit.',
+  description: '<p>AT&T spent two days outlining the expectations of a 5G network, highlighting the latest technology innovations, emphasizing diversity and inclusion in business, and providing a roadmap of the future after its blockbuster purchase of Time Warner Inc.</p><p>“Together we\'re transforming how business is done and shaping the global future,” Thaddeus Arroyo, CEO of AT&T Business, told an audience of business customers at the opening presentation on Sept. 26. “We\'re all looking to better compete at a fast pace in an interconnected world.”</p><p>The conversations were part of the the second annual AT&T Summit, an event the company hosts for thousands of its business customers across the world. This year, an estimated 3,000 people from 22 countries attended event held at the Gaylord Texan Resort in Grapevine.</p><p>The agenda included celebrity speakers and moderators including former British Prime Minister Tony Blair, CNN\'s Anderson Cooper, actress and founder Reese Witherspoon, singer/songwriter and entrepreneur Queen Latifah. It also featured power-player panelists including Deloitte's first female CEO Cathy Engelbert, author and journalist Malcolm Gladwell and Bozoma Saint John, chief marketing officer of entertainment giant Endeavor and former executive at Apple and Uber. It culminated with a private concert featuring Imagine Dragons and Gwen Stefani at AT&T Stadium in Arlington.</p>',
+  page: '2018-09-28-at&t-business-summit.html',
+  image: '2018-09-28-at&t-business-summit.jpg',
+  author: 'Danielle Abril',
+  featured: true
+}, {
   title: 'MetroPCS rebrands, links up with Google and Amazon',
   date: 'September 24, 2018 12:00 PM',
   blurb: 'The 24-year-old brand aims to shed stigma associated with prepaid mobile service with its latest offerings.',
   description: '<p>MetroPCS is aiming to change the public perception of its prepaid phone service. So the company is rebranding, changing its name and logo, as well as offering some new plans that include Google and Amazon services.',
   page: '2018-09-24-metropcs-updates-brand.html',
   image: '2018-09-24-metro-updates-brand.jpg',
-  author: 'Danielle Abril',
-  featured: true
+  author: 'Danielle Abril'
 }, {
   title: 'Plano-based OneDine app launches at Addison restaurants',
   date: 'September 19, 2018 3:45 PM',
