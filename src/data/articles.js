@@ -1,12 +1,20 @@
 const articles = [{
+  title: 'Editor\'s Note: DigiNews DFW to launch a semimonthly newsletter',
+  date: 'October 2, 2018 9:00 AM',
+  blurb: 'Readers can preregister to receive the very first newsletter, which will emerge within the next month.',
+  description: '<p>Since its founding in early September, DigiNews DFW has provided the community with the latest technology, startup and business news. As the next step of its evolution, the news site will launch a semimonthly newsletter within the next month, allowing readers to get the latest stories delivered straight to their email.</p><p>To sign up, scroll to the bottom of any DigiNews DFW page and provide a valid email address. And that\'s it, you\'re all set.</p><p>It\'s been a pleasure reporting on Dallas-Fort Worth startup, tech and business news for the last several years and various news topics in the region for the last 10 years. I\'m thoroughly excited to have the opportunity to continue that work via DigiNews DFW.</p><p>So far, DigiNews DFW has brought you news about the acquisition of Dallas startup Conversable, Mavs Gaming\'s new facility, Common Desk\'s expansion plans, the mobile app called OneDine and AT&T\'s Business Summit. Plans for future coverage include corporate news, startup community issues and successes, and innovative developments across various sectors.',
+  page: '2018-10-02-diginews-dfw-to-launch-newsletter.html',
+  image: '2018-10-02-diginews-dfw-to-launch-newsletter.jpg',
+  author: 'Danielle Abril',
+  featured: true
+}, {
   title: 'Dallas startup Conversable bought by New York-based public company',
   date: 'October 1, 2018 9:00 AM',
   blurb: 'Co-founders Ben Lamm and Andrew Busey sell their chatbot business two years after it emerges from stealth mode.',
   description: '<p>Dallas startup Conversable has been acquired by LivePerson, a publicly traded company that boasts an artificial-intelligence powered conversational platform for consumer-facing brands.<p/><p>The artificial intelligence and automation development teams at Conversable, which uses conversational bot technology, or “chatbots,” to help companies communicate with consumers, will join Live Person\'s global product and technology organization. Conversable co-founders Ben Lamm and Andrew Busey will serve LivePerson as part-time strategic advisors. Financial terms of the deal were not disclosed.</p><p>“In bringing together our companies, we are paving the way to intuitive and authentic brand conversations throughout the entire customer lifecycle,” Lamm, CEO of Conversable, said in a release. “These conversations arm businesses with a new level of customer understanding.”</p>',
   page: '2018-10-01-conversable-acquired-by-liveperson.html',
   image: '2018-10-01-conversable-acquired-by-liveperson.jpg',
-  author: 'Danielle Abril',
-  featured: true
+  author: 'Danielle Abril'
 }, {
   title: 'Heavy hitters explore the future of tech, media at AT&T Business Summit',
   date: 'September 28, 2018 9:00 AM',
