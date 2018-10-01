@@ -1,12 +1,20 @@
 const articles = [{
+  title: 'Dallas startup Conversable bought by New York-based public company',
+  date: 'September 28, 2018 9:00 AM',
+  blurb: 'Co-founders Ben Lamm and Andrew Busey sell their chatbot business two years after it emerges from stealth mode.',
+  description: '<p>Dallas startup Conversable has been acquired by LivePerson, a publicly traded company that boasts an artificial-intelligence powered conversational platform for consumer-facing brands.<p/><p>“In bringing together our companies, we are paving the way to intuitive and authentic brand conversations throughout the entire customer lifecycle,” Ben Lamm, co-founder and CEO of Conversable, said in a release. “These conversations arm businesses with a new level of customer understanding.”</p>,<p>The artificial intelligence and automation development teams at Conversable, which uses conversational bot technology, or “chatbots,” to help companies communicate with consumers, will join Live Person\'s global product and technology organization. Busey and Lamm XXXX. Financial terms of the deal were not disclosed.</p>',
+  page: '2018-10-01-conversable-acquired-by-liveperson.html',
+  image: '2018-10-01-conversable-acquired-by-liveperson.jpg',
+  author: 'Danielle Abril',
+  featured: true
+}, {
   title: 'Heavy hitters explore the future of tech, media at AT&T Business Summit',
   date: 'September 28, 2018 9:00 AM',
   blurb: 'Celebrities and corporate power players drive an estimated 3,000 people to the 2018 customer-only event.',
   description: '<p>AT&T spent two days outlining the expectations of a 5G network, highlighting the latest technology innovations, emphasizing diversity and inclusion in business, and providing a roadmap of the future after its blockbuster purchase of Time Warner Inc.</p><p>"Together we\'re transforming how business is done and shaping the global future," Thaddeus Arroyo, CEO of AT&T Business, told an audience of business customers at the opening presentation on Sept. 26. "We\'re all looking to better compete at a fast pace in an interconnected world."</p><p>The conversations were part of the the second annual AT&T Summit, an event the company hosts for thousands of its business customers across the world. This year, an estimated 3,000 people from 22 countries attended event held at the Gaylord Texan Resort in Grapevine.</p><p>The agenda included celebrity speakers and moderators including former British Prime Minister Tony Blair, CNN\'s Anderson Cooper, actress and founder Reese Witherspoon, singer/songwriter and entrepreneur Queen Latifah. It also featured power-player panelists including Deloitte\'s first female CEO Cathy Engelbert, author and journalist Malcolm Gladwell and Bozoma Saint John, chief marketing officer of entertainment giant Endeavor and former executive at Apple and Uber. It culminated with a private concert featuring Imagine Dragons and Gwen Stefani at AT&T Stadium in Arlington.</p>',
   page: '2018-09-28-at&t-business-summit.html',
   image: '2018-09-28-at&t-business-summit.jpg',
-  author: 'Danielle Abril',
-  featured: true
+  author: 'Danielle Abril'
 }, {
   title: 'MetroPCS rebrands, links up with Google and Amazon',
   date: 'September 24, 2018 12:00 PM',
