@@ -1,12 +1,24 @@
 const articles = [{
+  title: 'DFW\'s tech reputation is rising, but this CEO says don\'t get comfortable',
+  date: 'October 3, 2018 11:00 AM',
+  blurb: 'Capital One\'s 2018 Future Edge survey releases new insights on regional sentiment regarding the strength of its technology community.',
+  description: '<p>A growing number of Dallas-Fort Worth residents view the region as an emerging technology hub, but there\'s still much work to be done if the community wants to attract top talent and cutting-edge tech companies.</p><p>The news comes from Capital One\'s 2018 Future
+  Edge DFW survey conducted by Wakefield research. The 2018 results show that 85 percent of survey respondents, representing a 6 percent increase from 2016, see the region as rife with tech-related jobs, networking opportunities and providing high-quality of life. It also shows that 65
+  percent of respondents, a 30 percent increase from 2016, believe major technology companies will expand their local presence in the next decade.</p><p>The survey, released at Capital One\'s Reimagine Communities Symposium in Plano, was sent via email to 500 Dallas-Fort Worth residents
+  18 years and older between Aug. 30 and Sept. 6. This is the second Future Edge DFW survey led by Capital One, following one in 2016.</p><p>"Step one is [understanding] do people here believe this is a tech hub?” said Sanjiv Yajnik, CEO of Capital One Financial Services in Plano. "If
+  they don\'t believe that, forget about everything else. If we\'re trying to attract from the outside, we\'re never going to get them here."',
+  page: '2018-10-03-capital-one-future-edge-survey.html',
+  image: '2018-10-03-capital-one-future-edge-survey.jpg',
+  author: 'Danielle Abril',
+  featured: true
+}, {
   title: 'Editor\'s Note: DigiNews DFW to launch a semimonthly newsletter',
   date: 'October 2, 2018 9:00 AM',
   blurb: 'Readers can preregister to receive the very first newsletter, which will emerge within the next month.',
   description: '<p>Since its founding in early September, DigiNews DFW has provided the community with the latest technology, startup and business news. As the next step of its evolution, the news site will launch a semimonthly newsletter within the next month, allowing readers to get the latest stories delivered straight to their email.</p><p>To sign up, scroll to the bottom of any DigiNews DFW page and provide a valid email address. And that\'s it, you\'re all set.</p><p>It\'s been a pleasure reporting on Dallas-Fort Worth startup, tech and business news for the last several years and various news topics in the region for the last 10 years. I\'m thoroughly excited to have the opportunity to continue that work via DigiNews DFW.</p><p>So far, DigiNews DFW has brought you news about the acquisition of Dallas startup Conversable, Mavs Gaming\'s new facility, Common Desk\'s expansion plans, the mobile app called OneDine and AT&T\'s Business Summit. Plans for future coverage include corporate news, startup community issues and successes, and innovative developments across various sectors.',
   page: '2018-10-02-diginews-dfw-to-launch-newsletter.html',
   image: '2018-10-02-diginews-dfw-to-launch-newsletter.jpg',
-  author: 'Danielle Abril',
-  featured: true
+  author: 'Danielle Abril'
 }, {
   title: 'Dallas startup Conversable bought by New York-based public company',
   date: 'October 1, 2018 9:00 AM',
