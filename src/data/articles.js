@@ -1,4 +1,13 @@
 const articles = [{
+  title: 'How Sabre Corp. is transforming under CEO Sean Menke',
+  date: 'October 4, 2018 3:15 PM',
+  blurb: 'In the past two years, the travel technology company has been changing from the inside out, aiming to provide seamless travel experiences.',
+  description: '<p>In the past few years, Sabre Corp. has hired a new CEO, laid off hundreds of employees, and almost turned over its entire executive suite. But now, with Sean Menke at the helm, the company is charting a new course.</p><p>"I\'m a believer that life is about constant change," Menke told D CEO magazine. "Our company is going to continue to evolve to meet our customers\’ needs."</p><p>Sabre Corp., which began as a partnership between American Airlines and IBM in 1960, is travel technology company based in Southlake. What began as an innovative software company became a slow-moving corporate giant unable to meet the desires of the airline company.</p><p>Enter Menke, an airline veteran at Sabre who had been on both the customer side and inside Sabre. Menke took the top seat at the end of 2016. Since he took his post, he\'s been preaching a new vision for the company and hiring trained muscle who can execute that plan.</p>',
+  page: '2018-10-04-sabre-corp-transforming-under-ceo-sean-menke.html',
+  image: '2018-10-04-sabre-corp-transforming-under-ceo-sean-menke.jpg',
+  author: 'Danielle Abril',
+  featured: true
+},{
   title: 'DFW\'s tech reputation is rising, but this exec says don\'t get comfortable',
   date: 'October 3, 2018 11:00 AM',
   blurb: 'Capital One\'s 2018 Future Edge survey reveals latest insights on regional sentiment regarding the strength of its technology community.',
