@@ -1,13 +1,21 @@
 const articles = [{
+  title: 'DART to finance rides to and from transit stations in 2019',
+  date: 'October 8, 2018 9:00 AM',
+  blurb: 'The agency announced its plans during a discussion about how autonomous vehicles will affect the future of DFW.',
+  description: '<p>In its quest to improve service, adopt new technologies and expand reach, Dallas Area Rapid Transit will offer ride-sharing to and from its stations with the purchase of a transit pass in January 2019.</p><p>"DART\'s challenge is you can either innovate ... or die," said Todd Plesko, DART vice president of planning and development. "The goal that DART has is bring people from neighborhoods to some place that has high frequency [transit] services … get there quick … and it\'s easy and seamless."</p><p>Plesko discussed the new service at a panel called "Autonomous Vehicles: Challenges and Opportunities for the Real Estate Industry." The panel also included Thomas Bamonte, North Central Texas Council of Governments senior program manager of autonomous vehicles; Felipe Castillo, HALL Group director of development; and Jeff Peterson, First Transit business development director of autonomous technology. It was moderated by Jim Jordan of Munsch Hardt, which hosted the panel on Oct. 10.</p><p>Plesko also told audience members that DART would consider the use of autonomous vehicles in its plans if the technology proved to cut costs. Meanwhile, the agency is working on a contract to provide Uber Pool, which are shared Uber rides, to and from its stations within 6 square miles. The service, which will be available on its GoPass mobile app, is expected to be available within 10 minutes from user request and will be included in the cost of a regular DART pass.</p>',
+  page: '2018-10-11-dart-to-finance-rides-to-stations-in-2019.html',
+  image: '2018-10-11-dart-to-finance-rides-to-stations-in-2019.jpg',
+  author: 'Danielle Abril',
+  featured: true
+},  {
   title: 'Is AT&T redefining itself or an entire industry?',
   date: 'October 8, 2018 9:00 AM',
   blurb: 'The company\'s purchase of Time Warner has changed the game for telecommunications competitors.',
   description: '<p>AT&T is in its latest transformational period after its $85.4 billion blockbuster purchase of Time Warner. Though AT&T has a history of redefining itself, this move could, and some expect will, have ripple effects that could also change the industry of telecommunications.</p><p>When the deal was sealed in June, Dallas-based AT&T set into motion plans it had been prepping in the background for months leading up to the deal. This meant new leadership roles, new departments and new packaged offerings that would combine high quality content with a high-speed network. While the move caused quite a stir at the U.S. Department of Justice, which tried to squash the merger claiming that it would create less competition and higher prices for consumers, it also set a new pace for its competitors.</p>',
   page: '2018-10-08-at&t-redefining-telecommunications-industry.html',
   image: '2018-10-08-at&t-redefining-telecommunications-industry.jpg',
-  author: 'Danielle Abril',
-  featured: true
-},{
+  author: 'Danielle Abril'
+}, {
   title: 'How Sabre Corp. is transforming under CEO Sean Menke',
   date: 'October 4, 2018 3:15 PM',
   blurb: 'In the past two years, the travel technology company has been changing from the inside out, aiming to provide seamless travel experiences.',
