@@ -1,6 +1,6 @@
 const articles = [{
   title: 'Young venture capitalists plant roots in Dallas to invest in early stage startups',
-  date: 'October 18, 2018 10:00 AM',
+  date: 'October 18, 2018 3:30 PM',
   blurb: 'TXV Partners aims to specialize in startups disrupting Millennial and Gen Z markets.',
   description: '<p>A group of young venture capitalists are hoping to infuse the North Texas startup community with early stage funding focusing on companies disrupting Millennial and Generation Z markets.</p><p>TXV Partners, founded in Dallas in April, expects to close its $50 million fund by the end of the year. Led by managing partners Marcus Stroud, Brandon Allen and Shawn Narosov, the firm aims to invest in companies specializing in fintech, blockchain, esports or those that are providing new tech platforms or are consumer-based. The firm\'s founders, all age 25 years and younger, plan to leverage companies catering to younger consumers, particularly Millennials or Generation Z, which range in age from 8 to about 37.</p><p>While the firm expects to invest across the U.S. and even globally, it has particular interest in the local region.</p><p>"We want to continue to grow the venture scene in Texas, especially North Texas," Stroud said. "We want to be at the forefront of that push."</p>',
   page: '2018-10-18-txv-partners-investing-in-north-texas-startups.html',
