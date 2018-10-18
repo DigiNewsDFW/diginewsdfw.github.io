@@ -1,12 +1,20 @@
 const articles = [{
+  title: 'Young venture capitalists plant roots in Dallas to invest in early stage startups',
+  date: 'October 18, 2018 10:00 AM',
+  blurb: 'TXV Partners aims to specialize in startups disrupting Millennial and Gen Z markets.',
+  description: '<p>A group of young venture capitalists are hoping to infuse the North Texas startup community with early stage funding focusing on companies disrupting Millennial and Generation Z markets.</p><p>TXV Partners, founded in Dallas in April, expects to close its $50 million fund by the end of the year. Led by managing partners Marcus Stroud, Brandon Allen and Shawn Narosov, the firm aims to invest in companies in fintech, blockchain, esports or those that are providing new tech platforms or are consumer-based. The firm\'s founders, all age 25 years and younger, plan to leverage companies catering to younger consumers, particularly Millennials or Generation Z, which range in age from 8 to about 37.</p><p>While the firm expects to invest across the U.S. and even globally, it has particular interest in the local region.</p><p>"We want to continue to grow the venture scene in Texas, especially North Texas," Stroud said. "We want to be at the forefront of that push."</p>',
+  page: '2018-10-18-txv-partners-investing-in-north-texas-startups.html',
+  image: '2018-10-18-txv-partners-investing-in-north-texas-startups.jpg',
+  author: 'Danielle Abril',
+  featured: true
+}, {
   title: 'DART to finance rides to and from transit stations in 2019',
   date: 'October 11, 2018 7:00 AM',
   blurb: 'The agency announced its plans during a discussion about how autonomous vehicles will affect the future of Dallas-Fort Worth development.',
   description: '<p>In its quest to improve service, adopt new technologies and expand reach, Dallas Area Rapid Transit will offer on-demand ride-sharing service to and from its stations with the purchase of a transit pass in January 2019.</p><p>"DART\'s challenge is you can either innovate ... or die," said Todd Plesko, DART vice president of planning and development. "The goal that DART has is bring people from neighborhoods to some place that has high frequency [transit] services … get there quick … and it\'s easy and seamless."</p><p>Plesko discussed the new service at a panel called "Autonomous Vehicles: Challenges and Opportunities for the Real Estate Industry." The panel also included Thomas Bamonte, North Central Texas Council of Governments senior program manager of autonomous vehicles; Felipe Castillo, HALL Group director of development; and Jeff Peterson, First Transit business development director of autonomous technology. It was moderated by Jim Jordan of Munsch Hardt, which hosted the panel on Oct. 10.</p><p>Plesko also told audience members that DART would consider the use of autonomous vehicles in its plans if the technology proved to cut costs. Meanwhile, the agency is working on a contract to provide Uber Pool, which are shared Uber rides, to and from its stations. The service, which will be available on its GoPass mobile app, is expected to be available within 10 minutes from user request and will be included in the cost of a regular DART pass.</p>',
   page: '2018-10-11-dart-to-finance-rides-to-stations-in-2019.html',
   image: '2018-10-11-dart-to-finance-rides-to-stations-in-2019.jpg',
-  author: 'Danielle Abril',
-  featured: true
+  author: 'Danielle Abril'
 },  {
   title: 'Is AT&T redefining itself or an entire industry?',
   date: 'October 8, 2018 9:00 AM',
