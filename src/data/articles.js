@@ -1,12 +1,20 @@
 const articles = [{
+  title: 'How high-speed rail, Hyperloop One could change Dallas-Fort Worth',
+  date: 'October 31, 2018 6:00 AM',
+  blurb: 'Business, cities and real estate developers will have a new set of opportunities and challenges.',
+  description: '<p>AECOM has big expectations for the future of transportation in Dallas-Fort Worth. And if all goes as planned, new transportation innovations could change the way local businesses, cities and real estate developers envision and build the region.</p></p>"In the future, as transportation [becomes] more seamless and on-demand, the experience becomes the destination," said Ted Kollaja, AECOM regional managing director.</p><p>The Los Angeles-based engineering firm, which has an office in Dallas, has been working on the local high-speed rail project, which would boast a 90-minute ride from Dallas to Houston, and Hyperloop One, which would connect Dallas, Austin, San Antonio, Houston and Laredo via a high-speed tube with speeds up to 700 miles per hour. AECOM has been exploring environmental impact studies and plans for the both regional systems. Though there are a lot of hurdles to jump on both projects, one thing seems certain: Change is coming.</p><p>"You can start to imagine that we\'re moving in a different way," said Steven Duong, AECOM associate vice president. "So that means we\'ll need to do development a different way."</p>',
+  page: '2018-10-31-how-high-speed-rail-hyperloop-could-change-dallas-fort-worth.html',
+  image: '2018-10-31-how-high-speed-rail-hyperloop-could-change-dallas-fort-worth.jpg',
+  author: 'Danielle Abril',
+  featured: true
+}, {
   title: 'Dallas Fed\'s Rob Kaplan weighs in on cryptocurrencies and AI',
   date: 'October 25, 2018 11:00 AM',
   blurb: 'The CEO is keeping an eye on the emerging technologies and the increased pressure it will add to the local workforce.',
   description: '<p>Rob Kaplan, CEO of the Federal Reserve Bank of Dallas, is keeping a close eye on the traction of cryptocurrency, blockchain and artificial intelligence and what role it will play in the economy of the future. While he\'s skeptical about cryptocurrencies in their current form, he\'s much more certain that emerging technologies like blockchain and artificial intelligence will transform industries and put pressure on the workforce.</p><p>"My guess is we look back 20 years from now, and [blockchain] is going to be used by a range of industries we can\'t imagine right now," he said. "It could be very powerful."</p><p>Kaplan was one of three speakers featured on a panel titled "Cryptocurrencies, AI, and Disruptive Technologies That Will Redefine the Global Economy." The panel took place at the George W. Bush Presidential Center on Oct. 22 and was moderated by Ken Hersh, CEO of the center. Tuur Demeester, founder of Ukraine-based bitcoin fund Adamant Capital, and Barry Eichengreen, University of California-Berkley professor of economics and political science and a former senior advisor at the International Monetary Fund, also spoke on the panel.</p>',
   page: '2018-10-25-dallas-feds-rob-kaplan-on-cryptocurrencies-and-ai.html',
   image: '2018-10-25-dallas-feds-rob-kaplan-on-cryptocurrencies-and-ai.jpg',
-  author: 'Danielle Abril',
-  featured: true
+  author: 'Danielle Abril'
 }, {
   title: 'Young venture capitalists plant roots in Dallas to invest in early stage startups',
   date: 'October 18, 2018 3:30 PM',
