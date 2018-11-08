@@ -3,8 +3,8 @@ const articles = [{
   date: 'November 8, 2018 9:15 AM',
   blurb: 'The Dallas Innovation Alliance outlines latest progress and expectations for future projects.',
   description: '<p>After leading the implementation of nine integrated smart cities projects over the last year, the Dallas Innovation Alliance is readying for new projects focused on challenges in South Dallas. It is also aiding with the design of the West End Square Smart Park and preparing a host of events that will bring together experts, residents and academic institutions.</p><p>The alliance, a public-private partnership between the city of Dallas, organizations and the business community, detailed its plans in its Smart Cities Living Lab Case Study released on Nov. 8. The DIA\'s new recommendations and projects outlined in the report came from the results of the initial pilots as well as input from the city, citizens and partners, which include companies like AT&T, Toyota, Ericsson, AECOM, and Dallas Area Rapid Transit. And while DIA believes the Living Lab, launched in the West End in 2017, has already helped identify projects that could be scaled across the city, it has plans to do much more.</p><p>"We are still relatively early in the process and recognize that many key findings are preliminary, but suggest some exciting opportunities and data-driven results to inform future efforts and value to the city," reads a note in the report from DIA co-founders Try Bowles and Jennifer Sanders. "As a learning organization, we actively seek your ideas for improving our approach."</p>',
-  page: '2018-11-08-key-takeaways-and-next-steps-for-dallas-smart-cities-intitiatives.html',
-  image: '2018-10-31-how-high-speed-rail-hyperloop-could-change-dallas-fort-worth.jpg',
+  page: '2018-11-08-key-takeaways-and-next-steps-for-dallas-smart-cities-initiatives.html',
+  image: '2018-11-08-dia-update.jpg',
   author: 'Danielle Abril',
   featured: true
 }, {
