@@ -1,5 +1,5 @@
 const articles = [{
-  title: 'From the editor: It has been a pleasure serving Dallas',
+  title: 'Editor\'s note: It has been a pleasure serving Dallas',
   date: 'November 8, 2018 10:00 AM',
   blurb: 'A goodbye letter to all Dallas technology, startup and business contacts, readers and supporters.',
   description: '<p>For the past 10 years, I have thoroughly enjoyed serving Dallas-Fort Worth as a journalist. But the time has come for me to start the next chapter of my career.</p><p>While I had all hopes and expectations to grow DigiNews DFW, I recently received an opportunity I could not turn down. I have been hired as a technology reporter at Fortune. I will begin working remotely in December and, in January, will relocate to the company\'s San Francisco office to cover business-to-consumer technology companies.</p><p>This means I\'ll get the chance to work on stories about major technology companies like Google, Apple and Facebook, as well as continue startup coverage on a national platform. For years, the Bay Area has fascinated me. The amount of innovation, complexity and concerning issues that have developed out of the region has been nothing less than astonishing, and I\'m grateful for the opportunity to dig into those stories further.</p>',
